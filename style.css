@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    color: #fff;
+    background: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title-navbar{
+    width: 100%;
+    padding: 5% 10%;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#notice{
+    width: 100%;
+    padding: 10% 10%;
+    text-align: center;
+}
+
+#about{
+    width: 100%;
+    padding: 3% 7%;
+    text-align: left;
+    /* background: #181818; */
+}
+.about-info{
+    width: 100%;
+}
+
+#about-pastor{
+    width: 100%;
+    padding: 7% 3%;
+    background: #181818;
+}
+
+.pastor-text{
+    background: #181818;
+    padding: 10% 3%;
+    text-align: center;
+}
+.about-chu{
+    text-align: right;
+    padding: 0;
+}
+
+#info{
+    width: 100%;
+    padding: 3% 2.5%;
+    text-align: center;
+}
+
+.resources{
+    width: 100%;
+    padding: 3% 10%;
+    text-align: center;
+}
+.info-span{
+    color: #000;
+}
+
+.fea-img{
+    width: 100%;
+    padding: 3% 10%;
+}
+.fea-img-overlay{
+    position: absolute;
+    top: 8%;
+    left: 12%
+}
+.btn-fea{
+    text-align: center;
+}
+
+#call-action{
+    width: 100%;
+    padding: 3% 10%;
+    background: #181818;
+    margin-top: 3%;
+}
+
+
+#contact{
+    width: 100%;
+    padding: 5% 7%;
+    line-height:1.5;
+    background: #181818;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact-form{
+    width: 100%;
+    padding: 3% 20%;
+  }
+  .contact-form label{
+    font-size: 0.9rem;
+    line-height: 2rem;
+    font-weight: 500;
+  }
+  
+  .contact-form .text-input{
+    margin-bottom: 1.3rem;
+    width: 100%;
+    border-radius: 2px;
+    background: #181818;
+    border: 1px solid #555;
+    color: #ccc;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+  }
+  
+  .submit-btn{
+    padding: 0.6rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 500;
+    background: #fbc011;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.8s;
+  }
+  
+  .submit-btn:hover{
+    background: #6CCA64;
+  }
